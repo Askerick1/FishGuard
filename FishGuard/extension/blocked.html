@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+  <meta charset="UTF-8">
+  <title>FishGuard - Blocked</title>
+  <link rel="stylesheet" href="blocked.css">
+</head>
+
+<body>
+  <div class="container">
+    <!-- Шапка -->
+    <div class="header">
+      <div class="logo-area">
+        <img class="brand-icon" src="icons/logo.png" alt="">
+        <div class="title-wrapper">
+          <span class="title">FishGuard</span>
+        </div>
+      </div>
+      <div class="right-group">
+        <select id="lang-switcher" class="lang-select">
+          <option value="az">AZ</option>
+          <option value="en">EN</option>
+          <option value="ru">RU</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Предупреждение -->
+    <div class="alert-card">
+      <h1 id="txt-alert-title" class="alert-title">Diqqət! Fırıldaqçılıq Təhlükəsi</h1>
+      <p id="txt-alert-desc" class="alert-desc">Bu internet səhifəsi Azərbaycandakı bank və ya dövlət qurumlarını təqlid
+        edən saxta (fışinq) resurs kimi müəyyən edildi.</p>
+    </div>
+
+    <!-- Рекомендация -->
+    <div class="details-section">
+      <div><span id="txt-advice-val">Bu səhifəyə heç bir şəxsi məlumat,
+          şifrə və ya bank kartı məlumatlarını daxil etməyin.</span></div>
+    </div>
+
+    <!-- Кнопки действий -->
+    <div class="btn-group">
+      <button id="proceed" class="btn btn-secondary">Hər halda keç</button>
+      <button id="go-back" class="btn btn-primary">Geri qayıt</button>
+    </div>
+  </div>
+
+  <script src="blocked.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+  <meta charset="UTF-8">
+  <title>FishGuard</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo-area">
+        <img class="brand-icon" src="icons/logo.png" alt="">
+        <div class="title-wrapper">
+          <span class="title">FishGuard</span>
+        </div>
+      </div>
+      <div class="top-right-group">
+        <!-- Селект языков -->
+        <select id="lang-switcher" class="lang-select">
+          <option value="az">AZ</option>
+          <option value="en">EN</option>
+          <option value="ru">RU</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="main-card" class="main-card">
+      <h2 id="status-title" class="status-title">Secured</h2>
+      <p id="current-url" class="current-url">—</p>
+    </div>
+
+    <div class="stats-grid">
+      <div class="stat-box">
+        <div id="label-scanned" class="stat-label">Scanned</div>
+        <div id="stat-scanned" class="stat-value">0</div>
+      </div>
+      <div class="stat-box">
+        <div id="label-blocked" class="stat-label">Blocked</div>
+        <div id="stat-blocked" class="stat-value blocked">0</div>
+      </div>
+    </div>
+
+    <button id="report-btn" class="report-btn">
+      <svg viewBox="0 0 24 24">
+        <path
+          d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+      </svg>
+      <span id="text-report">Report Suspicious Site</span>
+    </button>
+  </div>
+  <script src="domains.js"></script>
+  <script src="detector.js"></script>
+  <script src="popup.js"></script>
+</body>
+
+</html>

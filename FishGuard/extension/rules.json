@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "requestDomains": [
+        "kap1talbank.az",
+        "kapital-bank.az",
+        "kapitall-bank.az",
+        "kaptal-bank.az",
+        "kapitalbank-login.az",
+        "kapital-odenis.com",
+        "kapitalbank-auth.top",
+        "birbank-az.com",
+        "bir-bank.az",
+        "birbank-tehlukesizlik.top",
+        "birbank-odenis.xyz",
+        "b1rbank.az",
+        "azerpost-odeme.top",
+        "azerpost-kargo.net",
+        "azerpost-tracking.xyz",
+        "azerpost-tesdiq.site",
+        "166-kargo.xyz",
+        "166-odenis.online",
+        "166-dashinma.top",
+        "login-gov-az.com",
+        "digital-gov-az.net",
+        "asan-odenis.click",
+        "tap-az.site",
+        "turbo-az.top",
+        "abb-az.online",
+        "azercell-bonus.xyz",
+        "bakcell-hesab.site",
+        "azernet-auth.com"
+      ],
+      "resourceTypes": [
+        "main_frame",
+        "sub_frame"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "regexFilter": "^https?://(www\\.)?amtso\\.org\\.?(:[0-9]+)?/check-desktop-phishing-page/?([?#]|$)",
+      "isUrlFilterCaseSensitive": true,
+      "resourceTypes": ["main_frame", "sub_frame"]
+    }
+  }
+]

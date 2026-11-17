@@ -1,0 +1,8 @@
+[
+  {"url":"https://kapitalbank.az/", "label":"legitimate"},
+  {"url":"https://birbank.az/", "label":"legitimate"},
+  {"url":"https://ordinary.example/", "label":"legitimate"},
+  {"url":"https://kapitalbank.az.attacker.test/", "label":"phishing"},
+  {"url":"https://birbnak.test/", "label":"phishing"},
+  {"url":"https://payapl.test/", "label":"phishing"}
+]
